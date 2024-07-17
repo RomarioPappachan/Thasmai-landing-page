@@ -2,32 +2,68 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+body {
+  font-family: "Philosopher", sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+
+#section1, #section2, #section3, #section4, #section5, #section6 {
+  transition : width 0.5s ease;
+}
+
+#section1.width-transition,
+#section2.width-transition,
+#section3.width-transition,
+#section4.width-transition,
+#section5.width-transition,
+#section6.width-transition {
+  width: 321px;
+}
+
+#sectionName1, #sectionName2, #sectionName3, #sectionName4, #sectionName5, #sectionName6 {
+  transition : justify-conntent 0.5s ease;
+}
+
+#sectionName1.link-show,
+#sectionName2.link-show,
+#sectionName3.link-show,
+#sectionName4.link-show,
+#sectionName5.link-show,
+#sectionName6.link-show {
+  justify-content: space-between;
+}
+
+@keyframes fade-in-glow {
+  0% {
+    opacity: 0;
+    box-shadow: 0 0 0px rgb(120, 137, 120, 0.7);
+  }
+  50% {
+    opacity: 0.7;
+    box-shadow: 0 0 15px rgb(138, 153, 138, 0.7);
+  }
+  100% {
+    opacity: 1;
+    box-shadow: 0 0 0px rgb(139, 150, 139, 0.7);
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.animate-fade-in-glow {
+  animation : fade-in-glow 2s ease-in-out;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+
+/*------------------- Mobile breakpoints------------------ */
+
+
+@media screen and (max-width: 640px) {
+
+  #section1.width-transition,
+  #section2.width-transition,
+  #section3.width-transition,
+  #section4.width-transition,
+  #section5.width-transition,
+  #section6.width-transition {
+    width: 107px;
   }
 }

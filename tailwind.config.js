@@ -8,11 +8,9 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        'radial-gradient': 'radial-gradient(70% 50% at 50% 50%, rgba(178, 198, 73, 1) 0%, rgba(87, 101, 0, 1) 100%)',
       },
     },
   },
-  plugins: [],
+  plugins: [require('daisyui'),],
 };

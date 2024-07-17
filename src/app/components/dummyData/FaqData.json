@@ -1,0 +1,24 @@
+[
+    { "id": 1, "question": "What is Thasmai?", "answer": "Thasmai is a holistic wellness center dedicated to improving overall well-being. It focuses on integrating physical, mental, and spiritual health.", "subject": "Thasmai" },
+    { "id": 2, "question": "What services does Thasmai offer?", "answer": "Thasmai offers a variety of services including yoga, meditation, and wellness workshops. Each service is designed to promote balance and harmony in daily life.", "subject": "Thasmai" },
+    { "id": 3, "question": "Where is Thasmai located?", "answer": "Thasmai is located in Bangalore, India. The center is easily accessible and provides a serene environment for all visitors.", "subject": "Thasmai" },
+    { "id": 4, "question": "How can I book a session at Thasmai?", "answer": "You can book a session at Thasmai through their official website or by calling their office directly. Their friendly staff is always ready to assist you.", "subject": "Thasmai" },
+
+    
+    { "id": 5, "question": "What is SMS Meditation?", "answer": "SMS Meditation is a guided meditation program that aims to enhance mental clarity and reduce stress. It is designed to be accessible for individuals of all experience levels.", "subject": "SMS Meditation" },
+    { "id": 6, "question": "Who can join SMS Meditation?", "answer": "Anyone looking to improve their mental well-being and achieve a state of inner peace can join SMS Meditation. The program is suitable for both beginners and experienced meditators.", "subject": "SMS Meditation" },
+    { "id": 7, "question": "How long are the SMS Meditation sessions?", "answer": "The SMS Meditation sessions typically last for 30 minutes. This duration is ideal for fitting into a busy schedule while providing significant benefits.", "subject": "SMS Meditation" },
+    { "id": 8, "question": "Are there any prerequisites for SMS Meditation?", "answer": "There are no prerequisites required to join SMS Meditation. Participants are encouraged to come with an open mind and a willingness to explore new techniques.", "subject": "SMS Meditation" },
+
+    
+    { "id": 9, "question": "What is the Digital Library?", "answer": "The Digital Library is an online platform that provides access to a wide range of digital resources. It includes e-books, journals, and multimedia content to support diverse learning needs.", "subject": "Digital Library" },
+    { "id": 10, "question": "How can I access the Digital Library?", "answer": "You can access the Digital Library through the official website by logging in with your credentials. It is available 24/7 for your convenience.", "subject": "Digital Library" },
+    { "id": 11, "question": "What types of resources are available in the Digital Library?", "answer": "The Digital Library offers a variety of resources including e-books, academic journals, and multimedia content. These resources cover a broad range of subjects and interests.", "subject": "Digital Library" },
+    { "id": 12, "question": "Is the Digital Library free to use?", "answer": "Access to many resources in the Digital Library is free. However, some specialized content may require a subscription or one-time fee.", "subject": "Digital Library" },
+
+
+    { "id": 13, "question": "What is Thasmai Solutions?", "answer": "Thasmai Solutions is a company that provides IT consulting and software development services. Their goal is to help businesses leverage technology for better outcomes.", "subject": "Thasmai Solutions" },
+    { "id": 14, "question": "Who can benefit from Thasmai Solutions?", "answer": "Businesses of all sizes looking for effective IT solutions and software development can benefit from Thasmai Solutions. They cater to various industries and sectors.", "subject": "Thasmai Solutions" },
+    { "id": 15, "question": "What services does Thasmai Solutions offer?", "answer": "Thasmai Solutions offers a range of services including software development, IT consulting, and project management. Each service is tailored to meet specific client needs.", "subject": "Thasmai Solutions" },
+    { "id": 16, "question": "How can I contact Thasmai Solutions?", "answer": "You can contact Thasmai Solutions through their official website or by sending an email. Their support team is always ready to assist with any inquiries.", "subject": "Thasmai Solutions" }
+]
