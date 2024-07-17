@@ -29,7 +29,7 @@ function FAQ() {
 
 
     return (
-        <main className="w-full min-h-screen m-0 p-0 pb-20">
+        <main className="w-full min-h-screen m-0 p-0 pb-20 bg-white">
 
 			{/* Navbar  */}
 			<div className="w-full h-[88px] m-0 fixed top-0 left-0 right-0 z-20">

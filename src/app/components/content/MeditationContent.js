@@ -28,29 +28,29 @@ function MeditationContent() {
                     Our guided sessions are designed to support your spiritual journey and enhance your well-being. Embrace tranquility and spiritual growth with us.
                 </p>
 
-                <div className='w-full mt-14 flex flex-wrap gap-x-2 md:gap-x-28 gap-y-12'>
+                <div className='w-[80%] mt-14 flex flex-wrap gap-4'>
 
-                    <div className='h-8 md:h-[56px] px-6 md:px-10 bg-[#F8AD2B] rounded-2xl flex justify-center items-center'>
+                    <div className='w-32 md:w-60 h-8 md:h-[56px] px-6 md:px-10 bg-[#F8AD2B] rounded-2xl flex justify-center items-center'>
                         <img className="size-5 md:size-[48px]" src="/australian-flag.png" alt="Australian-flag" />
                         <p className='ms-2 text-sm md:text-2xl text-white'>Australia</p>
                     </div>
 
-                    <div className='h-8 md:h-[56px] px-6 md:px-10 bg-[#F8AD2B] rounded-2xl flex justify-center items-center'>
+                    <div className='w-32 md:w-60 h-8 md:h-[56px] px-6 md:px-10 bg-[#F8AD2B] rounded-2xl flex justify-center items-center'>
                         <img className="size-5 md:size-[48px]" src="/canadian-flag.png" alt="Australian-flag" />
                         <p className='ms-2 text-sm md:text-2xl text-white'>Canada</p>
                     </div>
 
-                    <div className='h-8 md:h-[56px] px-6 md:px-10 bg-[#F8AD2B] rounded-2xl flex justify-center items-center'>
+                    <div className='w-32 md:w-auto h-8 md:h-[56px] px-2 md:px-10 bg-[#F8AD2B] rounded-2xl flex justify-center items-center'>
                         <img className="size-5 md:size-[48px]" src="/middle-eastern-flags.png" alt="Australian-flag" />
                         <p className='ms-2 text-sm md:text-2xl text-white'>Middle East</p>
                     </div>
 
-                    <div className='h-8 md:h-[56px] px-6 md:px-10 bg-[#F8AD2B] rounded-2xl flex justify-center items-center'>
+                    <div className='w-32 md:w-60 h-8 md:h-[56px] px-6 md:px-10 bg-[#F8AD2B] rounded-2xl flex justify-center items-center'>
                         <img className="size-5 md:size-[48px]" src="/european-union-flag.png" alt="Australian-flag" />
                         <p className='ms-2 text-sm md:text-2xl text-white'>Europe</p>
                     </div>
 
-                    <div className='h-8 md:h-[56px] px-6 md:px-10 bg-[#F8AD2B] rounded-2xl flex justify-center items-center'>
+                    <div className='w-32 md:w-60 h-8 md:h-[56px] px-6 md:px-10 bg-[#F8AD2B] rounded-2xl flex justify-center items-center'>
                         <img className="size-5 md:size-[48px]" src="/african-union-flag.png" alt="Australian-flag" />
                         <p className='ms-2 text-sm md:text-2xl text-white'>Africa</p>
                     </div>
