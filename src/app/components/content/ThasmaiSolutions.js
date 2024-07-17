@@ -8,7 +8,7 @@ function ThasmaiSolutions() {
             <div className="w-full md:w-[55%] h-screen px-4 md:px-0 md:ps-16 py-10 md:pt-20">
 
                 <p className='md:leading-[72px] font-bold text-[30px] md:text-[64px] text-[#372F26] inline-block'>
-                    Build & Maintain Robust
+                    3. Build & Maintain Robust
                 </p>
                 <p className='md:leading-[72px] font-bold text-[30px] md:text-[64px] text-[#372F26] inline-block'>
                     Apps 🚀💻

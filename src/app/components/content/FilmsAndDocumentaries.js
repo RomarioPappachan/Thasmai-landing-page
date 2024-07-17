@@ -7,7 +7,7 @@ function FilmsAndDocumentaries() {
             <div className="w-full md:w-[80%] h-screen px-4 md:px-0 md:ps-16 py-10 md:pt-14">
 
                 <p className='md:leading-[72px] font-bold text-[30px] md:text-[64px] bg-gradient-to-r from-[#777867] to-[#FFFFFF] bg-clip-text text-transparent inline-block'>
-                    "Stories Unveiled: Our Films and
+                    6. "Stories Unveiled: Our Films and
                 </p>
                 <p className='md:leading-[72px] font-bold text-[30px] md:text-[64px] bg-gradient-to-r from-[#777867] to-[#FFFFFF] bg-clip-text text-transparent inline-block'>
                     Documentaries

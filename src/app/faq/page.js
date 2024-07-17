@@ -59,7 +59,7 @@ function FAQ() {
 
 					<div className='w-full px-4 sm:px-16 pt-10 bg-white' key={subject}>
 
-						<h3 className='text-2xl font-semibold'>{ subject }</h3>
+						<h3 className='text-2xl font-semibold text-[#211B12]'>{ subject }</h3>
 
 						<div>
 							{

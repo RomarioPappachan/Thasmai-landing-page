@@ -8,7 +8,7 @@ function BlogsAndArticles() {
             <div className="w-full md:w-[80%] h-screen px-4 md:px-0 md:ps-16 py-10 md:pt-20">
 
                 <p className='md:leading-[72px] font-bold text-[30px] md:text-[64px] text-white inline-block'>
-                    Daily Insights and Inspirations
+                    4. Daily Insights and Inspirations
                 </p>
                 <p className='md:leading-[72px] font-bold text-[30px] md:text-[64px] text-white inline-block'>
                     for the Soul ✨

@@ -18,7 +18,7 @@ function Navbar() {
                     <Link href="/" className='w-14 h-14 md:w-[10%] md:h-auto m-0'>
                         <img className="w-full" src="/thasmai-logo.png" alt="thasmai-logo" />
                     </Link>
-                    <h1 className="ms-2 text-[25px] md:text-5xl font-semibold">Thasmai</h1>
+                    <h1 className="ms-2 text-[25px] md:text-5xl font-semibold text-black">Thasmai</h1>
                 </div>
         
                 <div className="hidden lg:inline-block">
@@ -42,7 +42,7 @@ function Navbar() {
                         <div class="drawer-content">
                            {/* Page content here  */}
                             <label for="my-drawer-4" class="drawer-button bg-white ">
-                                <IoMdMenu className='text-4xl '/>
+                                <IoMdMenu className='text-4xl text-black'/>
                             </label>
                         </div>
                         <div class="drawer-side">

@@ -8,7 +8,7 @@ function DigitalLibrary() {
             <div className="w-full md:w-[80%] h-screen px-4 md:px-0 md:ps-16 py-10 md:pt-20">
 
                 <p className='md:leading-[72px] font-bold text-[30px] md:text-[64px] text-[#211B12] inline-block'>
-                    "Explore Knowledge: Your Digital
+                    5. "Explore Knowledge: Your Digital
                 </p>
                 <p className='md:leading-[72px] font-bold text-[30px] md:text-[64px] text-[#211B12] inline-block'>
                     Library Awaits 📚"

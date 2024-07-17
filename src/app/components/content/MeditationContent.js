@@ -9,7 +9,7 @@ function MeditationContent() {
 
                 {/* For media breakpoint less than 768px */}
                 <h1 className='w-full md:hidden font-bold text-[30px] bg-gradient-to-r from-[#FCEFE0] to-[#F8AD2B] bg-clip-text text-transparent inline-block'>
-                    Embrace Your <br />Spiritual Journey <br />With Us
+                    2. Embrace Your <br />Spiritual Journey <br />With Us
                 </h1>
                 <span className='text-[30px] md:hidden'>🌿</span>
 
