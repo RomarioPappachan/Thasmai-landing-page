@@ -57,14 +57,14 @@ function PrivacyPolicy() {
         <p>We may revise this Privacy Policy from time to time. The most current version of the policy will govern our use of your information and will always be at the website’s privacy policy section. By continuing to access or use the Services after those changes become effective, you agree to be bound by the revised Privacy Policy.</p>
         <p><strong>Effective:</strong> July 17, 2024</p>
         <p><strong>Thoughts or questions about this Privacy Policy? Please let us know by writing to us at the appropriate address below.</strong></p>
-        <address>
+        <address className='mt-4'>
           Thasmai Meditation Center<br />
           13-Ganga Eswar<br />
           Chikkajala<br />
           Bengaluru, Karnataka<br />
           India- 562157<br />
           +91 8928350018<br />
-          info@thasmai.org.in
+         <a href='info@thasmai.org.in'target='_blank' className='text-blue-600 hover:text-blue-800'>info@thasmai.org.in</a> 
         </address>
       </div>
     </div>
