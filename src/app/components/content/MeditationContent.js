@@ -16,7 +16,7 @@ function MeditationContent() {
 
                 {/* For media breakpoint greater than 768px */}
                 <p className='leading-7 md:leading-tight font-bold text-[30px] md:text-[64px] bg-gradient-to-r from-[#FCEFE0] to-[#F8AD2B] bg-clip-text text-transparent md:inline-block hidden'>
-                    Embrace Your Spiritual
+                    2. Embrace Your Spiritual
                 </p><br />
                 <p className='leading-7 md:leading-tight font-bold text-[30px] md:text-[64px] bg-gradient-to-r from-[#FCEFE0] to-[#F8AD2B] bg-clip-text text-transparent md:inline-block hidden'>
                     Journey With Us 
