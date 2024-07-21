@@ -4,8 +4,8 @@ import React from 'react'
 
 function ThasmaiSolutions() {
     return (
-        <div className="w-full h-full bg-[#EEE0D2] opacity-100 animate-fade-in-glow">
-            <div className="w-full md:w-[55%] h-screen px-4 md:px-0 md:ps-16 py-10 md:pt-20">
+        <div className="w-full h-full font-philosopher bg-[#EEE0D2] opacity-100 animate-fade-in-glow">
+            <div className="w-full md:w-[55%] min-h-screen px-4 md:px-0 md:ps-16 py-10 md:pt-20">
 
                 <p className='md:leading-[72px] font-bold text-[30px] md:text-[64px] text-[#372F26] inline-block'>
                     3. Build & Maintain Robust

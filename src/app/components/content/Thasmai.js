@@ -4,8 +4,8 @@ import React from 'react'
 
 function Thasmai() {
     return (
-        <div className='w-full h-full bg-white opacity-100 animate-fade-in-glow'>
-            <div className='w-full md:w-[80%] h-screen px-4 md:px-0 md:ps-16 flex flex-col md:flex-row'>
+        <div className='w-full h-full font-philosopher bg-white opacity-100 animate-fade-in-glow'>
+            <div className='w-full md:w-[80%] min-h-screen px-4 md:px-0 md:ps-16 flex flex-col md:flex-row'>
                 <div className='w-full md:w-[45%] pt-10 md:pt-20'>
                     {/* <h1 className='font-bold text-[64px] bg-gradient-to-r from-[#201B13] to-[#F8AD2B] bg-clip-text text-transparent'>
                         Embrace Your Spiritual Journey With Us 🌿

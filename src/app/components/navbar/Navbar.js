@@ -21,7 +21,7 @@ function Navbar() {
                     <h1 className="ms-2 text-[25px] md:text-5xl font-semibold text-black">Thasmai</h1>
                 </div>
         
-                <div className="hidden lg:inline-block">
+                <div className="hidden lg:inline-block font-philosopher">
                     <ul className="m-0 flex justify-between text-xl text-[#211B12] font-semibold">
                         <Link href="/">
                             <li className={`${pathName === "/" ? "text-[#847562]" : ""}`}>Home</li>
@@ -47,7 +47,7 @@ function Navbar() {
                         </div>
                         <div class="drawer-side">
                             <label for="my-drawer-4" aria-label="close sidebar" class="drawer-overlay"></label>
-                            <ul class="menu bg-base-200 text-base-content min-h-full w-80 p-4 pt-24 gap-y-4">
+                            <ul class="menu bg-base-200 text-base-content min-h-full w-80 p-4 pt-24 gap-y-4 font-philosopher">
                                  {/* Sidebar content here  */}
                                 {/* <li><a>Sidebar Item 1</a></li>
                                 <li><a>Sidebar Item 2</a></li> */}

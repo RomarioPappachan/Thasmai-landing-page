@@ -41,7 +41,7 @@ function FAQ() {
 				<p className="text-[#422900] text-xl sm:text-[32px] font-semibold">Frequently Asked Questions</p>
 				
 				<button
-					className='w-[190px] h-[40px] bg-[#422900] rounded-2xl text-base font-medium text-white absolute -bottom-5 right-16 shadow drop-shadow-xl'
+					className='w-[190px] h-[40px] bg-[#422900] rounded-2xl text-base font-medium text-white absolute -bottom-5 right-4 sm:right-8 lg:right-16 shadow drop-shadow-xl'
 					onClick={() => {
 						setPopUpToggle(true);
 					}}
@@ -57,7 +57,7 @@ function FAQ() {
 			{
 				Object.keys(groupedData).map((subject) => (
 
-					<div className='w-full px-4 sm:px-16 pt-10 bg-white' key={subject}>
+					<div className='w-full px-4 sm:px-8 lg:px-16 pt-10 bg-white' key={subject}>
 
 						<h3 className='text-2xl font-semibold text-[#211B12]'>{ subject }</h3>
 
@@ -67,9 +67,9 @@ function FAQ() {
             	        			<div key={id}>
 										{/* Question */}
 										<div className='min-h-12 mt-4 px-3 flex justify-between items-center border-[0.1px]'>
-											<p className='text-sm sm:text-xl leading-6 text-[#815600] text-wrap'>{ question }</p>
+											<p className='w-[90%] text-sm sm:text-xl leading-6 text-[#815600] text-wrap'>{ question }</p>
 											<div 
-												className='size-8 rounded-full text-[#1C1B1F] bg-[#D9D9D9] flex justify-center items-center'
+												className='size-7 sm:size-8 rounded-full text-[#1C1B1F] bg-[#D9D9D9] flex justify-center items-center'
 												onClick={() => {
 													if(id === selectedId) {
 														setSelectedId("");
@@ -84,14 +84,20 @@ function FAQ() {
 										</div>
 											
 										{/* Answer */}
-										{
+										{/* {
 											(id === selectedId) && 
-											<div className='m-0 min-h-20 px-16 py-2 bg-white border-[0.1px] shadow drop-shadow-sm'>
+											<div className='answer m-0 min-h-20 px-4 sm:px-8 lg:px-16 py-2 bg-white border-[0.1px] shadow drop-shadow-sm'>
 												<p className='text-sm leading-6 text-[#514534]'>
 													{ answer }
 												</p>
 											</div>
-										}
+										} */}
+
+										<div className={`overflow-hidden m-0 transition-all duration-500 ease-in-out ${id === selectedId ? 'max-h-screen bg-white border-[0.1px] shadow drop-shadow-sm' : 'max-h-0'}`}>
+											<p className='min-h-20 px-4 sm:px-8 lg:px-16 py-2 text-sm leading-6 text-[#514534] '>
+												{answer}
+											</p>
+										</div>
 									</div>
             	    			))
 							}

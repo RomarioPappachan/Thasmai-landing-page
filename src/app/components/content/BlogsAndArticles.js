@@ -4,8 +4,8 @@ import React from 'react'
 
 function BlogsAndArticles() {
     return (
-        <div className="w-full h-full bg-radial-gradient opacity-100 animate-fade-in-glow">
-            <div className="w-full md:w-[80%] h-screen px-4 md:px-0 md:ps-16 py-10 md:pt-20">
+        <div className="w-full h-full font-philosopher bg-radial-gradient opacity-100 animate-fade-in-glow">
+            <div className="w-full md:w-[80%] min-h-screen px-4 md:px-0 md:ps-16 py-10 md:pt-20">
 
                 <p className='md:leading-[72px] font-bold text-[30px] md:text-[64px] text-white inline-block'>
                     4. Daily Insights and Inspirations

@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+.font-philosopher {
   font-family: "Philosopher", sans-serif;
 }
 
@@ -21,7 +21,7 @@ body {
 }
 
 #sectionName1, #sectionName2, #sectionName3, #sectionName4, #sectionName5, #sectionName6 {
-  transition : justify-conntent 0.5s ease;
+  transition : justify-content 0.5s ease;
 }
 
 #sectionName1.link-show,
@@ -31,6 +31,11 @@ body {
 #sectionName5.link-show,
 #sectionName6.link-show {
   justify-content: space-between;
+}
+
+
+.animate-fade-in-glow {
+  animation : fade-in-glow 2s ease-in-out;
 }
 
 @keyframes fade-in-glow {
@@ -48,9 +53,7 @@ body {
   }
 }
 
-.animate-fade-in-glow {
-  animation : fade-in-glow 2s ease-in-out;
-}
+
 
 
 /*------------------- Mobile breakpoints------------------ */

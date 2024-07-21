@@ -3,7 +3,7 @@ import React from 'react';
 
 function PrivacyPolicy() {
   return (
-<div className='pt-4 pb-8'>
+    <div className='pt-4 pb-8'>
       <div>
         <title>Privacy Policy - Thasmai Trust</title>
       </div>

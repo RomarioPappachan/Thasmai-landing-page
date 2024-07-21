@@ -4,8 +4,8 @@ import React from 'react'
 
 function DigitalLibrary() {
     return (
-        <div className="w-full h-full bg-gradient-to-b from-[#E5D8CC] to-[#7F7871] opacity-100 animate-fade-in-glow">
-            <div className="w-full md:w-[80%] h-screen px-4 md:px-0 md:ps-16 py-10 md:pt-20">
+        <div className="w-full h-full font-philosopher bg-gradient-to-b from-[#E5D8CC] to-[#7F7871] opacity-100 animate-fade-in-glow">
+            <div className="w-full md:w-[80%] min-h-screen px-4 md:px-0 md:ps-16 py-10 md:pt-20">
 
                 <p className='md:leading-[72px] font-bold text-[30px] md:text-[64px] text-[#211B12] inline-block'>
                     5. "Explore Knowledge: Your Digital
